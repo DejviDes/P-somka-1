@@ -1,0 +1,111 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: whitesmoke;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #333;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.4;
+  background-color: rgb(75, 72, 255);
+  align-items: center;
+  border-bottom: 2px solid whitesmoke;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  background-color: aliceblue;
+  color: #333;
+  padding: 12px 20px;
+  max-width: max-content;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+h2 {
+  background-color: rgb(75, 72, 255);
+  color: #ffffff;
+  font-size: 35px;
+  padding: 10px 20px;
+  max-width: max-content;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+h3 {
+  margin-left: 145px;
+  padding: 10px;
+  background-color: rgb(53, 164, 255);
+  color: rgb(39, 39, 39);
+  max-width: max-content;
+  border-radius: 10px;
+}
+.odsek {
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+p,
+ul,
+ol {
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: 1.4;
+  max-width: 50vw;
+}
+
+ul,
+ol {
+  padding-left: 40px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 300px;
+  height: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.imageFirst {
+  width: 300px;
+  height: 100%;
+  border-top-right-radius: 15px;
+}
+
+.imageLast {
+  width: 300px;
+  height: 100%;
+  border-bottom-right-radius: 15px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+}
